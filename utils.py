@@ -2,9 +2,7 @@ import os
 
 def get_model_path(path=None):
     if path is None:
-        _USERNAME = os.getenv("SUDO_USER") or os.getenv("USER") or "/"
-        path = os.path.expanduser('~' + _USERNAME)
-        path = os.path.join(path, ".mujinn")
+        path = os.path.join(os.getcwd(), os.path.basename('dataset'))
     return os.path.expanduser(path)
 
 def ensure_model_path():

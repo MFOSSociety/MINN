@@ -20,6 +20,6 @@ def learn(label, n=1, device=""):
             new_sample = sample(device)
             if new_sample:
                 write_data(label_path, new_sample)
-        except KeyboardInterrupt:  # pragma: no cover
+        except KeyboardInterrupt:
             break
     train_model()
