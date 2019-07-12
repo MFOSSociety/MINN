@@ -20,3 +20,17 @@ We have chose the most common and widespread localization technique used for pos
 
 Unfortunately, Wi-Fi signal strength measurements are extremely noisy, so there is ongoing research focused on making more accurate systems by using statistics to filter out the inaccurate input data.
 
+## Installation
+
+#### Step 1: (Cloning the Repository)
+
+```
+git clone https://github.com/0x48piraj/Inn
+```
+
+#### Step 2: (Installing the batteries)
+```
+cd Inn && pip install -r requirements.txt
+```
+
+Run `cli.py`
