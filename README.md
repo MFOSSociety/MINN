@@ -8,7 +8,7 @@ Works without Internet/GPS/Anything!
 
 Global navigation satellite systems (GPS or GNSS) are generally not suitable to establish indoor locations, since microwaves will be attenuated and scattered by roofs, walls and other objects. However, in order to make positioning signals ubiquitous, integration between GPS and indoor positioning can be made.
 
-# Challenge
+## Challenge
 
 The problem of Wi-Fi based indoor localization of a device consists in determining the position of client devices with respect to access points. Many techniques exist to accomplish this, and these may be classified into three main types:
 
