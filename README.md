@@ -34,3 +34,12 @@ cd Inn && pip install -r requirements.txt
 ```
 
 Run `cli.py`
+
+## Dependencies
+
+- [tqdm](https://github.com/tqdm/tqdm)
+- [Scipy](https://github.com/scipy/scipy/)
+- [Numpy](https://github.com/numpy/numpy)
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+
+
