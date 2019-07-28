@@ -20,6 +20,14 @@ We have chose the most common and widespread localization technique used for pos
 
 Unfortunately, Wi-Fi signal strength measurements are extremely noisy, so there is ongoing research focused on making more accurate systems by using statistics to filter out the inaccurate input data.
 
+## Accuracy
+
+Anything around ~10 meters or more should get >99% accuracy.
+
+It is the most robust when you switch locations and train in turn. E.g. first in Spot A, then in Spot B then start again with A. Doing this in spot A, then spot B and then immediately using "predict" will yield spot B as an answer usually. The effect of this temporal overfitting disappears over time. And, in fact, this is only a real concern for the very short distances. Just take a sample after some time in both locations and it should become very robust.
+
+Surprisingly, vertical difference in location is typically even more distinct than horizontal differences.
+
 ## Installation
 
 #### Step 1: (Cloning the Repository)
