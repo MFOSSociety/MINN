@@ -1,8 +1,11 @@
 # Inn
 
-Wi-Fi indoor positioning system for Manipal University Jaipur.
-
-Works without Internet/GPS/Anything!
+<p align="center">
+<b>Wi-Fi indoor positioning system for Manipal University Jaipur.</b><br><br>
+    <img alt="Inn logo" src="https://logo-to-go-here.png" width="400"><br>
+<b>Works without Internet/GPS/Anything!<br>
+  Click <a href="#demo">here</a> to see the demo.<br><br></b>
+</p>
 
 ## Why this Project (?)
 
