@@ -4,7 +4,7 @@
 <b>Wi-Fi indoor positioning system for Manipal University Jaipur.</b><br><br>
     <img alt="Inn logo" src="https://logo-to-go-here.png" width="400"><br>
 <b>Works without Internet/GPS/Anything!<br>
-  Click <a href="#demo">here</a> to see the demo.<br><br></b>
+  Click <a href="#Demo">here</a> to see the demo.<br><br></b>
 </p>
 
 ## Why this Project (?)
@@ -31,6 +31,32 @@ It is the most robust when you switch locations and train in turn. E.g. first in
 
 Surprisingly, vertical difference in location is typically even more distinct than horizontal differences.
 
+## Demo
+
+![jif demo](https://jif.gif)
+
+## Usage
+
+```
+root@woot:~/Inn$ python cli.py
+
+usage: cli.py [-h] [--version]
+              {predict,predict_proba,crossval,ls,locations,learn,rename,train}
+              ...
+
+Uses WiFi signals and machine learning to predict where you are.
+Feel free to try out commands, if anything is missing it will print help.
+
+You will want to start with `cli.py learn`
+
+positional arguments:
+  {predict,predict_proba,crossval,ls,locations,learn,rename,train}
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version, -v         show program's version number and exit
+```
+
 ## Installation
 
 #### Step 1: (Cloning the Repository)
@@ -43,8 +69,6 @@ git clone https://github.com/0x48piraj/Inn
 ```
 cd Inn && pip install -r requirements.txt
 ```
-
-Run `cli.py`
 
 ## Dependencies
 
