@@ -37,7 +37,7 @@ Surprisingly, vertical difference in location is typically even more distinct th
 
 ## Usage
 
-```
+```python
 root@woot:~/Inn$ python cli.py
 
 usage: cli.py [-h] [--version]
