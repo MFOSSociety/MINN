@@ -1,8 +1,8 @@
-# Inn
+# MINN
 
 <p align="center">
 <b>Wi-Fi indoor positioning system for Manipal University Jaipur.</b><br><br>
-    <img alt="Inn logo" src="https://logo-to-go-here.png" width="400"><br>
+    <img alt="MINN logo" src="https://logo-to-go-here.png" width="400"><br>
 <b>Works without Internet/GPS/Anything!<br>
   Click <a href="#Demo">here</a> to see the demo.<br><br></b>
 </p>
@@ -38,7 +38,7 @@ Surprisingly, vertical difference in location is typically even more distinct th
 ## Usage
 
 ```python
-root@woot:~/Inn$ python cli.py
+root@woot:~/MINN$ python cli.py
 
 usage: cli.py [-h] [--version]
               {predict,predict_proba,crossval,ls,locations,learn,rename,train}
@@ -62,12 +62,12 @@ optional arguments:
 #### Step 1: (Cloning the Repository)
 
 ```
-git clone https://github.com/0x48piraj/Inn
+git clone https://github.com/0x48piraj/MINN
 ```
 
 #### Step 2: (Installing the batteries)
 ```
-cd Inn && pip install -r requirements.txt
+cd MINN && pip install -r requirements.txt
 ```
 
 ## Dependencies
