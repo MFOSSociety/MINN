@@ -33,11 +33,11 @@ Surprisingly, vertical difference in location is typically even more distinct th
 
 ## Demo
 
-![jif demo](https://jif.gif)
+![MINN Demo](/static/demo.gif)
 
 ## Usage
 
-```python
+```console
 root@woot:~/MINN$ python cli.py
 
 usage: cli.py [-h] [--version]
