@@ -2,7 +2,7 @@
 
 <p align="center">
 <b>Wi-Fi indoor positioning system for Manipal University Jaipur.</b><br><br>
-    <img alt="MINN logo" src="https://logo-to-go-here.png" width="400"><br>
+    <img alt="MINN logo" src="static/minn-logo.png" width="400"><br>
 <b>Works without Internet/GPS/Anything!<br>
   Click <a href="#Demo">here</a> to see the demo.<br><br></b>
 </p>
