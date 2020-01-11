@@ -9,7 +9,9 @@
 
 ## Why this Project (?)
 
-Global navigation satellite systems (GPS or GNSS) are generally not suitable to establish indoor locations, since microwaves will be attenuated and scattered by roofs, walls and other objects. However, in order to make positioning signals ubiquitous, integration between GPS and indoor positioning can be made.
+Global navigation satellite systems (GPS or GNSS) are generally not suitable to establish indoor locations, since microwaves will be attenuated and scattered by roofs, walls and other objects.
+Building three dimensional (3d) map of whole university is a difficult job.
+However, in order to make positioning signals ubiquitous, integration between GPS and indoor positioning can be made.
 
 ## Challenge
 
