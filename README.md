@@ -23,6 +23,10 @@ The problem of Wi-Fi based indoor localization of a device consists in determini
 
 We have chose the most common and widespread localization technique used for positioning with wireless access points, i.e. measuring the intensity of the received signal (Received signal strength indication or RSSI) and the method of "fingerprinting" via utilizing machine learning algorithm called [Random Forest](https://en.wikipedia.org/wiki/Random_forest).
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/5800726/117699103-0e905f80-b1e2-11eb-8947-93fae504810a.png"/>
+</p>
+
 Unfortunately, Wi-Fi signal strength measurements are extremely noisy, so there is ongoing research focused on making more accurate systems by using statistics to filter out the inaccurate input data.
 
 ## Accuracy
