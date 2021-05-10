@@ -9,15 +9,15 @@
 
 ## Why this Project (?)
 
-Global navigation satellite systems (GPS or GNSS) are generally not suitable to establish indoor locations, since microwaves will be attenuated and scattered by roofs, walls and other objects.
-Building three dimensional (3d) map of whole university is a difficult job.
-However, in order to make positioning signals ubiquitous, integration between GPS and indoor positioning can be made.
+An indoor positioning system (IPS) is a network of devices used to locate people or objects where GPS and other satellite technologies lack precision or fail entirely, such as inside multistory buildings, airports, alleys, parking garages, and underground locations because the signals can be easily blocked by aforementioned structures making it useless for such environments because of signal loss.
+
+Global navigation satellite systems (GPS or GNSS) which remain the most prevalent and well-known technology for locating and tracking entities outdoors are generally not suitable to establish indoor locations, since microwaves will be attenuated and scattered by roofs, walls and other objects. Building a three dimensional (3d) map of the whole university is a difficult job. However, in order to make positioning signals ubiquitous, integration between GPS and indoor positioning can be made.
 
 ## Challenge
 
 The problem of Wi-Fi based indoor localization of a device consists in determining the position of client devices with respect to access points. Many techniques exist to accomplish this, and these may be classified into three main types:
 
-- Received signal strength indication (RSSI), fingerprinting
+- Received signal strength indication (RSSI) fingerprinting
 - Angle of arrival (AoA)
 - Time of flight (ToF) based techniques.
 
